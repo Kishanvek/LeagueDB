@@ -1,0 +1,27 @@
+League of Ledgends Builds website
+Models: Build, Champion, Item, and User
+Champion entity 6 Properties: ID (which would be the name, did not originally call it ID but Visual Studi psays it needs an ID property so thats what we named it)
+				Q : unique ability to champion
+				W : unique ability to champion			
+				E : unique ability to champion
+				R : unique ability to champion
+				Passive : every champion has a unique passive
+
+Item entity 3 Properties:	ID (again this would be the name of the item)
+				Gold (price of item)
+				Stats (What this item does, such has increase attack damage)
+
+Build entity 9 properties:	ID (any name you want to give to the build (such as BestUdyrBuild_Ever) in our data we just named the builds with numbers (1, 2, 3, 4, etc.)
+				Item1
+				Item2
+				Item3
+				Item4
+				Item5
+				Item6 (each build can have up to 6 items, just like in the game)
+				SumSpell1
+				SumSpell2 (summoner spells, each build can have two out of a select few)
+User has only 1 property: ID
+
+created some sample builds which combine champions and item with builds. Could not view data though. 
+Database is named LeagueDB1
+initializer is LeagueInitializer

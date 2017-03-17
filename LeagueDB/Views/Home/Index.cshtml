@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>LeagueDB</h1>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Welcome to LeagueDB</h2>
+        <p>
+            LeagueDB is an application that lets users
+            create customized League of Legends builds 
+            for champions as well as view builds others
+            have made. 
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>View Top Builds</h2>
+        <p>You can see what build are the most popular amoung other users. </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Top Builds", "Builds", "Home") &raquo;</a></p>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Create your own</h2>
+        <p>You can create and save your league builds which other users will see.</p>
+        <p><a class="btn btn-default" @Html.ActionLink("My Builds", "MyBuilds", "Home") &raquo;</a></p>
+    </div>
+
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <img src="~/Content/Photos/league-of-legends.jpg" />
+    <img src="~/Content/Photos/league1.jpg" />
+    <img src="~/Content/Photos/league2.jpg" />
+    <img src="~/Content/Photos/league3.jpg" />
+    <img src="~/Content/Photos/league4.jpg" />
+    <img src="~/Content/Photos/league5.jpg" />
+    <img src="~/Content/Photos/league6.png" />
+    <img src="~/Content/Photos/league7.jpg" />
+    <img src="~/Content/Photos/league8.jpg" />
+</div>
